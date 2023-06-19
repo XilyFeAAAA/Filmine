@@ -1,0 +1,41 @@
+/* 颜色变量名字必须以--开头 */
+:root {
+    --bg-image: linear-gradient(
+        125deg,
+        #845ec2,
+        #d65db1,
+        #ff6f91,
+        #ff9671,
+        #ffc75f,
+        #f9f871,
+        #845ec2
+    );
+    --login-bg-color: #fff;
+    --bg-color: #fafafa;
+    --bg1-color: #999696;
+    --bg2-color: #fff;
+    --menu-color: #f1f3f4;
+    --font-color: #333;
+    --border-color: #333;
+    --ex-bg-color: #dcdeea;
+    --border-color: #e1e1e1;
+    --text-color: #fff;
+    --text1-color: #000;
+    --text2-color: #dad6da;
+    --text3-color: #a6a3b3;
+    --text4-color: #c4332d;
+    --text5-color: #666;
+    --text6-color: #5c5c6a;
+    --text7-color: #a1a0a0;
+    --text8-color: #b30109;
+    --text9-color: #5c5c5c;
+    --input-border-color: #5c5c65;
+}
+
+::-webkit-selection {
+    background-color: #79ffe1;
+}
+
+::selection {
+    background-color: #79ffe1;
+}

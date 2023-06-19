@@ -1,0 +1,185 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('../ttf/OpenSans_VariableFont_wdth_wght.ttf') format('truetype');
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    font-family: 'MyFont', sans-serif;
+}
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+code,
+del,
+dfn,
+em,
+q,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+input,
+fieldset,
+form,
+legend,
+caption,
+tbody,
+tfoot,
+thead,
+article,
+aside,
+dialog,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 14px;
+    font: inherit;
+    vertical-align: baseline;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+dialog,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    /* font-family: SourceHanSansSC-regular, '微软雅黑', Arial, Helvetica, sans-serif; */
+}
+img {
+    border: 0;
+}
+::-webkit-input-placeholder {
+    color: #999;
+}
+:-moz-placeholder {
+    color: #999;
+}
+::-moz-placeholder {
+    color: #999;
+}
+:-ms-input-placeholder {
+    color: #ccc;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+textarea {
+    overflow: auto;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+b,
+strong {
+    font-weight: bold;
+}
+input:focus,
+textarea:focus,
+button:focus,
+select:focus {
+    outline: none;
+}
+input::-ms-clear {
+    display: none;
+}
+button[disabled],
+html input[disabled] {
+    cursor: default;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+button {
+    border: 0;
+    user-select: none;
+    transition: all 0.1s;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+button:active {
+    /* transform: scale(0.95); */
+}
+
+img {
+    user-select: none;
+}
+
+.animated-loading {
+    background-image: linear-gradient(to right, #f6f7f8 0%, #edeef1 10%, #f6f7f8 20%, #f6f7f8 100%);
+    background-size: 200% 100%;
+    animation: bgPos 1s linear infinite;
+}
+
+@keyframes bgPos {
+    from {
+        background-position: 50% 0;
+    }
+    to {
+        background-position: -150% 0;
+    }
+}

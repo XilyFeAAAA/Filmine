@@ -1,0 +1,33 @@
+/* 颜色变量名字必须以--开头 */
+:root {
+    --bg-image: linear-gradient(
+        125deg,
+        #b89596,
+        #a1838e,
+        #877285,
+        #69647a,
+        #4b566b,
+        #2f4858,
+        #b89596
+    );
+    --login-bg-color: #fff;
+    --bg-color: #141414;
+    --bg1-color: #161616;
+    --bg2-color: #666;
+    --menu-color: #f1f3f4;
+    --font-color: #333;
+    --border-color: #333;
+    --ex-bg-color: #636e72;
+    --border-color: #202020;
+    --text-color: #fff;
+    --text1-color: #fff;
+    --text2-color: #dad6da;
+    --text3-color: #a6a3b3;
+    --text4-color: #c4332d;
+    --text5-color: #666;
+    --text6-color: #5c5c6a;
+    --text7-color: #a1a0a0;
+    --text8-color: #b30109;
+    --text9-color: #5c5c5c;
+    --input-border-color: #5c5c65;
+}
